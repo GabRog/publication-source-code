@@ -1,5 +1,7 @@
 # publication-source-code
 
+Basing on Justyna Apryasz's research.
+
 Fibonacci:
 - Python file from: https://github.com/bsoyka/fibonacci/blob/master/main.py
 - Java file from: https://github.com/KarterJP/Fibonacci-Number/blob/master/FibonacciNumber.java
