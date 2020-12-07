@@ -1,4 +1,3 @@
-# from https://github.com/bsoyka/fibonacci/blob/master/main.py
 cache = {"1": 0, "2": 1}
 def fib(n):
     if str(n) in cache:
