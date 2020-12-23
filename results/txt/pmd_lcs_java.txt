@@ -1,0 +1,29 @@
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:3:	All classes, interfaces, enums and annotations must belong to a named package
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:3:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:3:	Class comments are required
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:3:	The utility class name 'LongestCommonSubsequence' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:6:	Parameter 'args' is not assigned and could be declared final
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:6:	Public method and constructor comments are required
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:8:	Ensure that resources like this Scanner object are closed after use
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:8:	Local variable 'Longest' could be declared final
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:8:	The local variable name 'Longest' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:11:	Avoid variables with short names like A
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:11:	Local variable 'A' could be declared final
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:11:	The local variable name 'A' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:13:	Avoid variables with short names like B
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:13:	Local variable 'B' could be declared final
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:13:	The local variable name 'B' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:20:	Avoid variables with short names like A
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:20:	Avoid variables with short names like B
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:20:	Parameter 'A' is not assigned and could be declared final
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:20:	Parameter 'B' is not assigned and could be declared final
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:20:	Public method and constructor comments are required
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:20:	The method 'lcsMethod(String, String)' has a cyclomatic complexity of 11.
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:20:	The method parameter name 'A' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:20:	The method parameter name 'B' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:21:	Avoid variables with short names like a
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:22:	Avoid variables with short names like b
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:46:	Local variable 'newIndex' could be declared final
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:53:	Comment is too large: Line too long
+/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java:62:	Comment is too large: Line too long
+LoosePackageCoupling	-	No packages or classes specified

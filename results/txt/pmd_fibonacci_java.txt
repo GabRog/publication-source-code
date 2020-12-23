@@ -1,0 +1,16 @@
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:3:	All classes, interfaces, enums and annotations must belong to a named package
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:3:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:3:	Class comments are required
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:4:	Parameter 'args' is not assigned and could be declared final
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:4:	Public method and constructor comments are required
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:5:	Avoid variables with short names like in
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:5:	Ensure that resources like this Scanner object are closed after use
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:5:	Local variable 'in' could be declared final
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:6:	Avoid variables with short names like n
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:6:	Local variable 'n' could be declared final
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:10:	Avoid variables with short names like n
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:10:	Parameter 'n' is not assigned and could be declared final
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:10:	The static method name 'calc_fib_fast' doesn't match '[a-z][a-zA-Z0-9]*'
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:11:	Avoid using Literals in Conditional Statements
+/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java:12:	A method should have only one exit point, and that should be the last statement in the method
+LoosePackageCoupling	-	No packages or classes specified

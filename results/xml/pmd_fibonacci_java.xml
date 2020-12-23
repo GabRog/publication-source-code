@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2020-12-23T17:54:43.531">
+<file name="/Users/grogowsk/master degree/publication-source-code/fibonacci/fibonacci_java.java">
+<violation beginline="3" endline="25" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="FibonacciNumber" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="3" endline="25" begincolumn="30" endcolumn="1" rule="UseUtilityClass" ruleset="Design" class="FibonacciNumber" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="3" endline="25" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Documentation" class="FibonacciNumber" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Class comments are required
+</violation>
+<violation beginline="4" endline="4" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="FibonacciNumber" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="8" begincolumn="19" endcolumn="5" rule="CommentRequired" ruleset="Documentation" class="FibonacciNumber" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="5" endline="5" begincolumn="17" endcolumn="18" rule="ShortVariable" ruleset="Code Style" class="FibonacciNumber" method="main" variable="in" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like in
+</violation>
+<violation beginline="5" endline="5" begincolumn="17" endcolumn="18" rule="CloseResource" ruleset="Error Prone" class="FibonacciNumber" method="main" variable="in" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this Scanner object are closed after use
+</violation>
+<violation beginline="5" endline="5" begincolumn="9" endcolumn="43" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="FibonacciNumber" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'in' could be declared final
+</violation>
+<violation beginline="6" endline="6" begincolumn="13" endcolumn="13" rule="ShortVariable" ruleset="Code Style" class="FibonacciNumber" method="main" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like n
+</violation>
+<violation beginline="6" endline="6" begincolumn="9" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="FibonacciNumber" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'n' could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="45" endcolumn="45" rule="ShortVariable" ruleset="Code Style" class="FibonacciNumber" method="calc_fib_fast" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like n
+</violation>
+<violation beginline="10" endline="10" begincolumn="41" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="FibonacciNumber" method="calc_fib_fast" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'n' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="24" begincolumn="20" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" class="FibonacciNumber" method="calc_fib_fast" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The static method name 'calc_fib_fast' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="11" endline="11" begincolumn="18" endcolumn="18" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="FibonacciNumber" method="calc_fib_fast" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="12" endline="12" begincolumn="13" endcolumn="21" rule="OnlyOneReturn" ruleset="Code Style" class="FibonacciNumber" method="calc_fib_fast" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>

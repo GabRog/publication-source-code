@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2020-12-23T17:56:24.481">
+<file name="/Users/grogowsk/master degree/publication-source-code/lcs/lcs_java.java">
+<violation beginline="3" endline="79" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="LongestCommonSubsequence" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="3" endline="79" begincolumn="39" endcolumn="1" rule="UseUtilityClass" ruleset="Design" class="LongestCommonSubsequence" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="3" endline="79" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Documentation" class="LongestCommonSubsequence" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Class comments are required
+</violation>
+<violation beginline="3" endline="79" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" class="LongestCommonSubsequence" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'LongestCommonSubsequence' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+</violation>
+<violation beginline="6" endline="6" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LongestCommonSubsequence" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="6" endline="17" begincolumn="19" endcolumn="5" rule="CommentRequired" ruleset="Documentation" class="LongestCommonSubsequence" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="8" endline="8" begincolumn="17" endcolumn="23" rule="CloseResource" ruleset="Error Prone" class="LongestCommonSubsequence" method="main" variable="Longest" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this Scanner object are closed after use
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LongestCommonSubsequence" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'Longest' could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="17" endcolumn="23" rule="LocalVariableNamingConventions" ruleset="Code Style" class="LongestCommonSubsequence" method="main" variable="Longest" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'Longest' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="11" endline="11" begincolumn="16" endcolumn="16" rule="ShortVariable" ruleset="Code Style" class="LongestCommonSubsequence" method="main" variable="A" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like A
+</violation>
+<violation beginline="11" endline="11" begincolumn="9" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LongestCommonSubsequence" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'A' could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="16" endcolumn="16" rule="LocalVariableNamingConventions" ruleset="Code Style" class="LongestCommonSubsequence" method="main" variable="A" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'A' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="13" endline="13" begincolumn="16" endcolumn="16" rule="ShortVariable" ruleset="Code Style" class="LongestCommonSubsequence" method="main" variable="B" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like B
+</violation>
+<violation beginline="13" endline="13" begincolumn="9" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LongestCommonSubsequence" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'B' could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="16" endcolumn="16" rule="LocalVariableNamingConventions" ruleset="Code Style" class="LongestCommonSubsequence" method="main" variable="B" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'B' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="20" endline="20" begincolumn="41" endcolumn="41" rule="ShortVariable" ruleset="Code Style" class="LongestCommonSubsequence" method="lcsMethod" variable="A" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like A
+</violation>
+<violation beginline="20" endline="20" begincolumn="51" endcolumn="51" rule="ShortVariable" ruleset="Code Style" class="LongestCommonSubsequence" method="lcsMethod" variable="B" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like B
+</violation>
+<violation beginline="20" endline="20" begincolumn="34" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LongestCommonSubsequence" method="lcsMethod" variable="A" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'A' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="44" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LongestCommonSubsequence" method="lcsMethod" variable="B" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'B' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="77" begincolumn="19" endcolumn="5" rule="CommentRequired" ruleset="Documentation" class="LongestCommonSubsequence" method="lcsMethod" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="20" endline="77" begincolumn="19" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" class="LongestCommonSubsequence" method="lcsMethod" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'lcsMethod(String, String)' has a cyclomatic complexity of 11.
+</violation>
+<violation beginline="20" endline="20" begincolumn="41" endcolumn="41" rule="FormalParameterNamingConventions" ruleset="Code Style" class="LongestCommonSubsequence" method="lcsMethod" variable="A" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'A' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="20" endline="20" begincolumn="51" endcolumn="51" rule="FormalParameterNamingConventions" ruleset="Code Style" class="LongestCommonSubsequence" method="lcsMethod" variable="B" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'B' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="21" endline="21" begincolumn="13" endcolumn="13" rule="ShortVariable" ruleset="Code Style" class="LongestCommonSubsequence" method="lcsMethod" variable="a" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like a
+</violation>
+<violation beginline="22" endline="22" begincolumn="13" endcolumn="13" rule="ShortVariable" ruleset="Code Style" class="LongestCommonSubsequence" method="lcsMethod" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like b
+</violation>
+<violation beginline="46" endline="46" begincolumn="9" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LongestCommonSubsequence" method="lcsMethod" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'newIndex' could be declared final
+</violation>
+<violation beginline="53" endline="53" begincolumn="1" endcolumn="1" rule="CommentSize" ruleset="Documentation" class="LongestCommonSubsequence" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentsize" priority="3">
+Comment is too large: Line too long
+</violation>
+<violation beginline="62" endline="62" begincolumn="1" endcolumn="1" rule="CommentSize" ruleset="Documentation" class="LongestCommonSubsequence" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentsize" priority="3">
+Comment is too large: Line too long
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>
