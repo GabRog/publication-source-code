@@ -1,7 +1,25 @@
 #!/bin/bash
-header='1s/.*/Package,File,Line,CC/g;'
-results='2,$s/(.*),(.*)\/src\/jsat(.*).java,(.*),T(.*)complexity of (.*)./\1,\3.java,\4,\6/g'
 
-awk -F\",\" '/\"CyclomaticComplexity\"/ {print $2","$3","$5","$6}' results/csv/test.csv\
- | sed -E "$header$results" \
- > CyclomaticComplexity.csv
+#separately class and method cyclomatic complexity
+
+#"9","jsat","/Users/grogowsk/master degree/publication-source-code/ultra-hard/JSAT/JSAT/src/jsat/DataSet.java","3","27","The class 'DataSet' has a total cyclomatic complexity of 120 (highest 12).","Design","CyclomaticComplexity"
+#"263","jsat","/Users/grogowsk/master degree/publication-source-code/ultra-hard/JSAT/JSAT/src/jsat/DataSet.java","3","832","The method 'setWeight(int, double)' has a cyclomatic complexity of 12.","Design","CyclomaticComplexity"
+
+gawk -F, '/,"CyclomaticComplexity"/' results/csv/test.csv |
+gawk -F, '/"The method/' | \
+gawk 'BEGIN{FS="\",\"";OFS=","} \
+    BEGIN{print "Package,File,Line,MethodSignature,MethodName,MethodCC"} \
+    {split($3,path,"JSAT/JSAT/src/jsat")} \
+    {match($6,/'\''(.*)'\'' has a cyclomatic complexity of ([0-9]+)./,cc)} \
+    {match(cc[1], /(.*)\(/, name)} \
+    {print $2,path[2],$5,cc[1],name[1],cc[2]}' \
+> MethodCC.csv
+
+gawk -F, '/,"CyclomaticComplexity"/' results/csv/test.csv |
+gawk -F, '/"The class/' | \
+gawk 'BEGIN{FS="\",\"";OFS=","} \
+    BEGIN{print "Package,File,Line,ClassName,ClassCC,HighestCC"} \
+    {split($3,path,"JSAT/JSAT/src/jsat")} \
+    {match($6,/'\''(.*)'\'' has a total cyclomatic complexity of ([0-9]+) \(highest ([0-9]+)\)/,cc)} \
+    {print $2,path[2],$5,cc[1],cc[2],cc[3]}' \
+> ClassCC.csv
