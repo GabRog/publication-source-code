@@ -1,7 +1,11 @@
 #!/bin/bash
-header='1s/.*/Package,File,Line,MethodName,NCSS/g;'
-results='2,$s/(.*),(.*)\/src\/jsat(.*).java,(.*),T(.*)'\''(.*)'\''(.*)line count of (.*)\./\1,\3.java,\4,\6,\8/g'
 
-awk -F\",\" '/\"NcssCount\"/ {print $2","$3","$5","$6}' results/csv/test.csv \
- | sed -E "$header$results" \
- > Ncss.csv
+awk -F, '/\"NcssCount\"/' results/csv/test.csv |
+awk 'BEGIN{FS="\",\"";OFS=","} \
+    BEGIN{print "Package,File,Line,MethodName,NCSS"} \
+    {split($3,path,"JSAT\/JSAT"); $3=path[2]} \
+    {split($6,method,"'\''")} \
+    {split($6,metric," of ")} \
+    {split(metric[2],ncss,".")} \
+    {print $2,$3,$5,method[2],ncss[1]}' \
+> Ncss.csv
