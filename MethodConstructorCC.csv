@@ -40,6 +40,7 @@ jsat.linear,/linear/Vec.java,736,pNormDist(double, Vec),pNormDist,17
 jsat.linear,/linear/Vec.java,801,pNorm(double),pNorm,10
 jsat.linear,/linear/Vec.java,840,dot(Vec),dot,20
 jsat.linear,/linear/Vec.java,918,equals(Object, double),equals,25
+jsat.linear,/linear/SubMatrix.java,27,SubMatrix(Matrix, int, int, int, int),SubMatrix,16
 jsat.linear.vectorcollection,/linear/vectorcollection/VPTree.java,476,selectVantagePointIndex(List),selectVantagePointIndex,10
 jsat.linear.vectorcollection,/linear/vectorcollection/VPTree.java,704,searchKNN(Vec, int, BoundedSortedList, double, List),searchKNN,19
 jsat.linear.vectorcollection,/linear/vectorcollection/VPTree.java,797,searchKNN_recurse(Vec, int, BoundedSortedList, double, List),searchKNN_recurse,12
@@ -58,6 +59,7 @@ jsat.linear.vectorcollection,/linear/vectorcollection/DCI.java,145,writeObject(O
 jsat.linear.vectorcollection,/linear/vectorcollection/DCI.java,296,search(Vec, double, List, List),search,16
 jsat.linear.vectorcollection,/linear/vectorcollection/DCI.java,382,search(Vec, int, List, List),search,17
 jsat.linear,/linear/HessenbergForm.java,25,hess(Matrix, ExecutorService),hess,10
+jsat.linear,/linear/Lanczos.java,33,Lanczos(Matrix, int, boolean, boolean),Lanczos,10
 jsat.io,/io/LIBSVMLoader.java,267,loadG(Reader, double, int, boolean, DataStore),loadG,62
 jsat.io,/io/ARFFLoader.java,69,loadArffFile(Reader, DataStore),loadArffFile,32
 jsat.io,/io/ARFFLoader.java,240,writeArffFile(DataSet, OutputStream, String),writeArffFile,18
@@ -86,6 +88,7 @@ jsat.clustering.kmeans,/clustering/kmeans/KMeansPDN.java,83,cluster(DataSet, int
 jsat.clustering.kmeans,/clustering/kmeans/GMeans.java,152,cluster(DataSet, int, int, boolean, int),cluster,22
 jsat.clustering.kmeans,/clustering/kmeans/NaiveKMeans.java,95,cluster(DataSet, List, int, List, int, boolean, boolean, boolean, Vec),cluster,14
 jsat.clustering.kmeans,/clustering/kmeans/HamerlyKMeans.java,92,cluster(DataSet, List, int, List, int, boolean, boolean, boolean, Vec),cluster,13
+jsat.clustering.kmeans,/clustering/kmeans/KernelKMeans.java,103,KernelKMeans(KernelKMeans),KernelKMeans,10
 jsat.clustering.kmeans,/clustering/kmeans/KernelKMeans.java,363,updateMeansFromChange(int, int, double, double),updateMeansFromChange,10
 jsat.clustering.kmeans,/clustering/kmeans/LloydKernelKMeans.java,107,cluster(DataSet, int, int),cluster,10
 jsat.clustering.kmeans,/clustering/kmeans/ElkanKernelKMeans.java,165,cluster(DataSet, int, int, boolean, boolean),cluster,12
@@ -98,6 +101,7 @@ jsat.utils,/utils/QuickSort.java,228,sort(double, int, int, Collection),sort,17
 jsat.utils,/utils/QuickSort.java,301,sort(float, int, int, Collection),sort,17
 jsat.utils,/utils/IntDoubleMap.java,287,getIndex(int),getIndex,13
 jsat.utils,/utils/LongDoubleMap.java,228,getIndex(long),getIndex,13
+jsat.math.optimization.stochastic,/math/optimization/stochastic/Adam.java,61,Adam(double, double, double, double, double),Adam,22
 jsat.math.optimization.stochastic,/math/optimization/stochastic/Rprop.java,86,update(Vec, Vec, double, double, double),update,10
 jsat.math.optimization,/math/optimization/NelderMead.java,127,optimize(double, int, Function, List, boolean),optimize,17
 jsat.math.optimization,/math/optimization/ModifiedOWLQN.java,189,optimize(double, Vec, Vec, Function, FunctionVec, boolean),optimize,28
@@ -120,6 +124,7 @@ jsat.datatransform,/datatransform/AutoDeskewTransform.java,144,fit(DataSet),fit,
 jsat.datatransform,/datatransform/DataTransformProcess.java,127,learnApplyTransforms(DataSet),learnApplyTransforms,14
 jsat.datatransform.featureselection,/datatransform/featureselection/MutualInfoFS.java,129,fit(DataSet),fit,24
 jsat.datatransform.featureselection,/datatransform/featureselection/ReliefF.java,201,fit(DataSet, ExecutorService),fit,13
+jsat.datatransform.kernel,/datatransform/kernel/RFF_RBF.java,98,RFF_RBF(int, double, int, Random, boolean),RFF_RBF,10
 jsat.datatransform.kernel,/datatransform/kernel/Nystrom.java,254,sampleBasisVectors(KernelTrick, DataSet, List, SamplingMethod, int, boolean, Random),sampleBasisVectors,14
 jsat.datatransform.kernel,/datatransform/kernel/KernelPCA.java,137,fit(DataSet),fit,12
 jsat.parameters,/parameters/Parameter.java,214,getParamsFromMethods(Object, String),getParamsFromMethods,25
@@ -177,6 +182,7 @@ jsat.classifiers.imbalance,/classifiers/imbalance/BorderlineSMOTE.java,184,train
 jsat.classifiers.neuralnetwork,/classifiers/neuralnetwork/SOM.java,338,trainSOM(DataSet, boolean),trainSOM,16
 jsat.classifiers.neuralnetwork,/classifiers/neuralnetwork/LVQ.java,462,train(ClassificationDataSet, boolean),train,28
 jsat.classifiers.neuralnetwork,/classifiers/neuralnetwork/BackPropagationNet.java,145,trainNN(DataSet),trainNN,13
+jsat.classifiers.neuralnetwork,/classifiers/neuralnetwork/SGDNetworkTrainer.java,151,SGDNetworkTrainer(SGDNetworkTrainer),SGDNetworkTrainer,12
 jsat.classifiers.neuralnetwork,/classifiers/neuralnetwork/SGDNetworkTrainer.java,490,updateMiniBatch(List, List, ExecutorService),updateMiniBatch,13
 jsat.classifiers.neuralnetwork,/classifiers/neuralnetwork/SGDNetworkTrainer.java,534,feedforward(Matrix, Matrix, Matrix, ExecutorService, Random),feedforward,11
 jsat.classifiers.svm,/classifiers/svm/SBP.java,180,train(ClassificationDataSet),train,12

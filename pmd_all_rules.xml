@@ -9,7 +9,14 @@
         All PMD rules by Gababriela
     </description>
     <rule ref="category/java/codestyle.xml"></rule>
-    <rule ref="category/java/design.xml"></rule>
+    <rule ref="category/java/design.xml">
+        <exclude name="NPathComplexity"/>
+    </rule>
+    <rule ref="category/java/design.xml/NPathComplexity">
+        <properties>
+            <property name="minimum" value="1" />
+        </properties>
+    </rule>
     <rule ref="category/java/documentation.xml"></rule>
     <rule ref="category/java/errorprone.xml"></rule>
     <rule ref="category/java/multithreading.xml"></rule>

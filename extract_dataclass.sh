@@ -1,4 +1,5 @@
 #!/bin/bash
+#(WOC=27.273%, NOPA=0, NOAM=6, WMC=12)","Design","DataClass"
 awk -F, '/\"GodClass\"/' results/csv/test.csv |
 awk 'BEGIN{FS="\",\"";OFS=","} \
     BEGIN{print "Package,Path,Line,WMC,ATFD,TCC"} \

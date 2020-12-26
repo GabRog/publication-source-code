@@ -1,11 +1,10 @@
 #!/bin/bash
 
-awk -F, '/\"NcssCount\"/' results/csv/test.csv |
+awk -F, '/,"NcssCount"/' results/csv/test.csv | \
 awk 'BEGIN{FS="\",\"";OFS=","} \
-    BEGIN{print "Package,File,Line,MethodName,NCSS"} \
-    {split($3,path,"JSAT\/JSAT"); $3=path[2]} \
-    {split($6,method,"'\''")} \
-    {split($6,metric," of ")} \
-    {split(metric[2],ncss,".")} \
-    {print $2,$3,$5,method[2],ncss[1]}' \
-> Ncss.csv
+    BEGIN{print "Package,File,Line,MethodSignature,MethodName,MethodNCSS"} \
+    {split($3,path,"JSAT/JSAT/src/jsat")} \
+    {match($6,/'\''(.*)'\'' has a NCSS line count of ([0-9]+)/,metric)} \
+   {match(metric[1], /(.*)\(/, name)} \
+    {print $2,path[2],$5,metric[1],name[1],metric[2]}' \
+> MethodNcss.csv
