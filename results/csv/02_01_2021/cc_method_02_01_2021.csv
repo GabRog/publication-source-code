@@ -1,0 +1,244 @@
+Package,File,Line,MethodSignature,MethodName,MethodCC
+jsat.linear.distancemetrics,,107,testDist_Vec_Vec(),testDist_Vec_Vec,11
+jsat.linear.distancemetrics,,163,testDist_Vec_Vec_ExecutorService(),testDist_Vec_Vec_ExecutorService,11
+jsat.linear.distancemetrics,,113,testDist_Vec_Vec(),testDist_Vec_Vec,11
+jsat.io,,75,testReadNumericOnly(),testReadNumericOnly,10
+jsat.io,,182,testReadNumericCatFeats(),testReadNumericCatFeats,14
+jsat.io,,362,testWriteRead(),testWriteRead,13
+jsat.io,,74,testLoadR_File(),testLoadR_File,10
+jsat.utils,,166,testRandom(),testRandom,15
+jsat.datatransform.visualization,,80,testTransform_DataSet_ExecutorService(),testTransform_DataSet_ExecutorService,13
+jsat.datatransform.visualization,,153,testTransform_DiffDists(),testTransform_DiffDists,13
+jsat.datatransform.visualization,,77,testTransform_DataSet_ExecutorService(),testTransform_DataSet_ExecutorService,15
+jsat.datatransform.visualization,,78,testTransform_DataSet_ExecutorService(),testTransform_DataSet_ExecutorService,13
+jsat.datatransform,,50,testTransform2_2(),testTransform2_2,12
+jsat.datatransform,,150,testTransform2_2_prewhite(),testTransform2_2_prewhite,12
+jsat.datatransform,,254,testTransform2_3(),testTransform2_3,12
+jsat.text.topicmodel,,63,testModel(),testModel,13
+jsat.text.topicmodel,,156,passTest(OnlineLDAsvi, List, Dirichlet, Random),passTest,14
+jsat.driftdetectors,,46,testAddSample_double_GenericType(),testAddSample_double_GenericType,16
+jsat.driftdetectors,,49,testAddSample_double_GenericType(),testAddSample_double_GenericType,11
+jsat.classifiers.trees,,226,testClone(),testClone,11
+jsat.classifiers.linear,,181,testSetC(),testSetC,10
+jsat,/DataSet.java,832,setWeight(int, double),setWeight,12
+jsat.linear.distancemetrics,/linear/distancemetrics/JaccardDistance.java,108,eval(Vec, Vec),eval,23
+jsat.linear.distancemetrics,/linear/distancemetrics/PearsonDistance.java,101,correlation(Vec, Vec, boolean),correlation,36
+jsat.linear,/linear/SingularValueDecomposition.java,113,bidiagonalize(int, int, int, Matrix, int, double, double),bidiagonalize,13
+jsat.linear,/linear/SingularValueDecomposition.java,176,superDiagonalCreation(double, int, int, int, double, Matrix),superDiagonalCreation,10
+jsat.linear,/linear/SingularValueDecomposition.java,244,generateU(int, int, int),generateU,11
+jsat.linear,/linear/SingularValueDecomposition.java,283,mainIterationLoop(int, double, int, int, int),mainIterationLoop,24
+jsat.linear,/linear/DenseVector.java,339,pNorm(double),pNorm,10
+jsat.linear,/linear/MatrixOfVecs.java,70,changeSize(int, int),changeSize,11
+jsat.linear,/linear/SparseVector.java,542,mutableAdd(double, Vec),mutableAdd,17
+jsat.linear,/linear/SparseVector.java,650,pNormDist(double, Vec),pNormDist,15
+jsat.linear,/linear/SparseVector.java,703,pNorm(double),pNorm,10
+jsat.linear,/linear/SparseVector.java,778,equals(Object, double),equals,12
+jsat.linear,/linear/EigenValueDecomposition.java,76,tred2(),tred2,20
+jsat.linear,/linear/EigenValueDecomposition.java,205,tql2(),tql2,14
+jsat.linear,/linear/EigenValueDecomposition.java,395,hqr2(),hqr2,30
+jsat.linear,/linear/EigenValueDecomposition.java,973,backsubtituteFindVectors(int, double, double, double, double, double),backsubtituteFindVectors,17
+jsat.linear,/linear/SparseMatrix.java,451,multiplyTranspose(Matrix, Matrix),multiplyTranspose,20
+jsat.linear,/linear/Poly2Vec.java,138,getNonZeroIterator(int),getNonZeroIterator,17
+jsat.linear.solvers,/linear/solvers/ConjugateGradient.java,107,solve(double, Matrix, Vec, Vec, Matrix),solve,12
+jsat.linear,/linear/DenseMatrix.java,337,transposeMultiply(Matrix, Matrix, ExecutorService),transposeMultiply,10
+jsat.linear,/linear/DenseMatrix.java,406,multiply(Matrix, Matrix),multiply,11
+jsat.linear,/linear/DenseMatrix.java,501,multiply(Matrix, Matrix, ExecutorService),multiply,11
+jsat.linear,/linear/DenseMatrix.java,632,lup(),lup,10
+jsat.linear,/linear/DenseMatrix.java,749,lup(ExecutorService),lup,14
+jsat.linear,/linear/GenericMatrix.java,126,multiply(Vec, double, Vec),multiply,10
+jsat.linear,/linear/GenericMatrix.java,180,multiplyTranspose(Matrix, Matrix),multiplyTranspose,12
+jsat.linear,/linear/GenericMatrix.java,257,multiply(Matrix, Matrix, ExecutorService),multiply,10
+jsat.linear,/linear/GenericMatrix.java,492,lup(),lup,12
+jsat.linear,/linear/GenericMatrix.java,566,lup(ExecutorService),lup,18
+jsat.linear,/linear/VecOps.java,32,accumulateSum(Vec, Vec, Vec, Function1D),accumulateSum,24
+jsat.linear,/linear/VecOps.java,103,weightedDot(Vec, Vec, Vec),weightedDot,20
+jsat.linear,/linear/MatrixStatistics.java,136,covarianceMatrix(Vec, Matrix, List),covarianceMatrix,10
+jsat.linear,/linear/MatrixStatistics.java,168,covarianceMatrix(Vec, Matrix, List, Collection),covarianceMatrix,10
+jsat.linear,/linear/MatrixStatistics.java,233,covarianceMatrix(Vec, DataSet, Matrix, double, double),covarianceMatrix,10
+jsat.linear,/linear/MatrixStatistics.java,447,FastMCD(Vec, Matrix, List, boolean),FastMCD,18
+jsat.linear,/linear/Vec.java,229,multiply(double, Matrix, Vec),multiply,10
+jsat.linear,/linear/Vec.java,736,pNormDist(double, Vec),pNormDist,17
+jsat.linear,/linear/Vec.java,801,pNorm(double),pNorm,10
+jsat.linear,/linear/Vec.java,840,dot(Vec),dot,20
+jsat.linear,/linear/Vec.java,918,equals(Object, double),equals,25
+jsat.linear,/linear/SubMatrix.java,27,SubMatrix(Matrix, int, int, int, int),SubMatrix,16
+jsat.linear.vectorcollection,/linear/vectorcollection/VPTree.java,476,selectVantagePointIndex(List),selectVantagePointIndex,10
+jsat.linear.vectorcollection,/linear/vectorcollection/VPTree.java,704,searchKNN(Vec, int, BoundedSortedList, double, List),searchKNN,19
+jsat.linear.vectorcollection,/linear/vectorcollection/VPTree.java,797,searchKNN_recurse(Vec, int, BoundedSortedList, double, List),searchKNN_recurse,12
+jsat.linear.vectorcollection,/linear/vectorcollection/RandomBallCover.java,183,search(Vec, double, List, List),search,11
+jsat.linear.vectorcollection,/linear/vectorcollection/RandomBallCover.java,246,search(Vec, int, List, List),search,16
+jsat.linear.vectorcollection,/linear/vectorcollection/RandomBallCover.java,325,insert(V),insert,21
+jsat.linear.vectorcollection,/linear/vectorcollection/BallTree.java,456,build_anchors(List, boolean),build_anchors,29
+jsat.linear.vectorcollection,/linear/vectorcollection/DualTree.java,58,search(VectorCollection, int, List, List, boolean),search,10
+jsat.linear.vectorcollection,/linear/vectorcollection/DualTree.java,603,compute(),compute,23
+jsat.linear.vectorcollection,/linear/vectorcollection/RTree.java,656,splitNode(RNode),splitNode,28
+jsat.linear.vectorcollection,/linear/vectorcollection/SVPTree.java,558,searchKNN(Vec, int, BoundedSortedList, double, List),searchKNN,19
+jsat.linear.vectorcollection,/linear/vectorcollection/SVPTree.java,651,searchKNN_recurse(Vec, int, BoundedSortedList, double, List),searchKNN_recurse,12
+jsat.linear.vectorcollection,/linear/vectorcollection/KDTree.java,432,buildTree(List, int, ExecutorService, ModifiableCountDownLatch),buildTree,38
+jsat.linear.vectorcollection,/linear/vectorcollection/DCI.java,96,readObject(ObjectInputStream),readObject,11
+jsat.linear.vectorcollection,/linear/vectorcollection/DCI.java,145,writeObject(ObjectOutputStream),writeObject,11
+jsat.linear.vectorcollection,/linear/vectorcollection/DCI.java,296,search(Vec, double, List, List),search,16
+jsat.linear.vectorcollection,/linear/vectorcollection/DCI.java,382,search(Vec, int, List, List),search,17
+jsat.linear,/linear/HessenbergForm.java,25,hess(Matrix, ExecutorService),hess,10
+jsat.linear,/linear/Lanczos.java,33,Lanczos(Matrix, int, boolean, boolean),Lanczos,10
+jsat.io,/io/LIBSVMLoader.java,267,loadG(Reader, double, int, boolean, DataStore),loadG,62
+jsat.io,/io/ARFFLoader.java,69,loadArffFile(Reader, DataStore),loadArffFile,32
+jsat.io,/io/ARFFLoader.java,240,writeArffFile(DataSet, OutputStream, String),writeArffFile,18
+jsat.io,/io/JSATData.java,212,getMethod(DataSet, FloatStorageMethod),getMethod,19
+jsat.io,/io/JSATData.java,645,load(InputStream, boolean, DataStore),load,26
+jsat.io,/io/CSV.java,289,readCSV(Reader, int, char, char, Set, int, int),readCSV,63
+jsat.io,/io/CSV.java,676,write(DataSet, Writer, char),write,12
+jsat.clustering.hierarchical,/clustering/hierarchical/DivisiveGlobalClusterer.java,80,cluster(DataSet, int, int, boolean, int),cluster,24
+jsat.clustering.hierarchical,/clustering/hierarchical/SimpleHAC.java,83,cluster(DataSet, int, int, int),cluster,11
+jsat.clustering.hierarchical,/clustering/hierarchical/NNChainHAC.java,200,cluster(DataSet, int, int, boolean, int),cluster,13
+jsat.clustering,/clustering/OPTICS.java,365,xiSteepClusterExtract(int, List, int),xiSteepClusterExtract,21
+jsat.clustering,/clustering/OPTICS.java,513,cluster(DataSet, int),cluster,11
+jsat.clustering,/clustering/GapStatistic.java,274,cluster(DataSet, int, int, boolean, int),cluster,28
+jsat.clustering,/clustering/FLAME.java,191,cluster(DataSet, boolean, int),cluster,45
+jsat.clustering,/clustering/CLARA.java,127,cluster(DataSet, boolean, int, int, List, boolean),cluster,13
+jsat.clustering,/clustering/MEDDIT.java,210,medoid(boolean, Collection, double, List, DistanceMetric, List),medoid,15
+jsat.clustering,/clustering/VBGMM.java,290,cluster(DataSet, boolean, int),cluster,15
+jsat.clustering.evaluation,/clustering/evaluation/NormalizedMutualInformation.java,28,evaluate(int, DataSet),evaluate,16
+jsat.clustering.evaluation.intra,/clustering/evaluation/intra/SumOfSqrdPairwiseDistances.java,74,evaluate(int, DataSet, int),evaluate,10
+jsat.clustering.evaluation,/clustering/evaluation/Completeness.java,35,evaluate(int, DataSet),evaluate,13
+jsat.clustering.evaluation,/clustering/evaluation/Homogeneity.java,39,evaluate(int, DataSet),evaluate,12
+jsat.clustering,/clustering/BayesianHAC.java,680,cluster(DataSet, boolean, int),cluster,11
+jsat.clustering,/clustering/HDBSCAN.java,211,cluster(DataSet, boolean, int),cluster,38
+jsat.clustering.kmeans,/clustering/kmeans/XMeans.java,173,cluster(DataSet, int, int, boolean, int),cluster,23
+jsat.clustering.kmeans,/clustering/kmeans/KMeansPDN.java,83,cluster(DataSet, int, int, boolean, int),cluster,13
+jsat.clustering.kmeans,/clustering/kmeans/GMeans.java,152,cluster(DataSet, int, int, boolean, int),cluster,22
+jsat.clustering.kmeans,/clustering/kmeans/NaiveKMeans.java,95,cluster(DataSet, List, int, List, int, boolean, boolean, boolean, Vec),cluster,14
+jsat.clustering.kmeans,/clustering/kmeans/HamerlyKMeans.java,92,cluster(DataSet, List, int, List, int, boolean, boolean, boolean, Vec),cluster,13
+jsat.clustering.kmeans,/clustering/kmeans/KernelKMeans.java,103,KernelKMeans(KernelKMeans),KernelKMeans,10
+jsat.clustering.kmeans,/clustering/kmeans/KernelKMeans.java,363,updateMeansFromChange(int, int, double, double),updateMeansFromChange,10
+jsat.clustering.kmeans,/clustering/kmeans/LloydKernelKMeans.java,107,cluster(DataSet, int, int),cluster,10
+jsat.clustering.kmeans,/clustering/kmeans/ElkanKernelKMeans.java,165,cluster(DataSet, int, int, boolean, boolean),cluster,12
+jsat.clustering.kmeans,/clustering/kmeans/ElkanKMeans.java,117,cluster(DataSet, List, int, List, int, boolean, boolean, boolean, Vec),cluster,25
+jsat.utils,/utils/StringUtils.java,9,parseInt(CharSequence, int, int, int),parseInt,11
+jsat.utils,/utils/StringUtils.java,86,parseDouble(CharSequence, int, int),parseDouble,49
+jsat.utils,/utils/IntSet.java,120,getIndex(int, boolean),getIndex,15
+jsat.utils,/utils/QuickSort.java,144,sort(double, int, int),sort,14
+jsat.utils,/utils/QuickSort.java,228,sort(double, int, int, Collection),sort,17
+jsat.utils,/utils/QuickSort.java,301,sort(float, int, int, Collection),sort,17
+jsat.utils,/utils/IntDoubleMap.java,287,getIndex(int),getIndex,13
+jsat.utils,/utils/LongDoubleMap.java,228,getIndex(long),getIndex,13
+jsat.math.optimization.stochastic,/math/optimization/stochastic/Adam.java,61,Adam(double, double, double, double, double),Adam,22
+jsat.math.optimization.stochastic,/math/optimization/stochastic/Rprop.java,86,update(Vec, Vec, double, double, double),update,10
+jsat.math.optimization,/math/optimization/NelderMead.java,127,optimize(double, int, Function, List, boolean),optimize,17
+jsat.math.optimization,/math/optimization/ModifiedOWLQN.java,189,optimize(double, Vec, Vec, Function, FunctionVec, boolean),optimize,28
+jsat.math.optimization,/math/optimization/BFGS.java,43,optimize(double, Vec, Vec, Function, FunctionVec, boolean),optimize,12
+jsat.math.optimization,/math/optimization/BacktrackingArmijoLineSearch.java,63,lineSearch(double, Vec, Vec, Vec, Function, FunctionVec, double, double, Vec, double, Vec, boolean),lineSearch,15
+jsat.math.optimization,/math/optimization/WolfeNWLineSearch.java,108,lineSearch(double, Vec, Vec, Vec, Function, FunctionVec, double, double, Vec, double, Vec, boolean),lineSearch,16
+jsat.math.rootfinding,/math/rootfinding/Zeroin.java,57,root(double, int, double, double, Function1D),root,19
+jsat.math,/math/SpecialMath.java,317,zeta(double),zeta,12
+jsat.math,/math/SpecialMath.java,390,zeta(double, double),zeta,16
+jsat.math,/math/SpecialMath.java,732,betaIncReg(double, double, double),betaIncReg,11
+jsat.math,/math/SpecialMath.java,854,invGammaP(double, double),invGammaP,13
+jsat.datatransform.visualization,/datatransform/visualization/TSNE.java,620,insert(int, int, double),insert,11
+jsat.datatransform.visualization,/datatransform/visualization/MDS.java,143,transform(Matrix, boolean),transform,12
+jsat.datatransform.visualization,/datatransform/visualization/Isomap.java,148,transform(DataSet, boolean),transform,12
+jsat.datatransform,/datatransform/Imputer.java,82,fit(DataSet),fit,19
+jsat.datatransform,/datatransform/FastICA.java,224,fit(DataSet),fit,14
+jsat.datatransform,/datatransform/RemoveAttributeTransform.java,137,setUp(DataSet, Set, Set),setUp,11
+jsat.datatransform,/datatransform/RemoveAttributeTransform.java,218,transform(DataPoint),transform,14
+jsat.datatransform,/datatransform/AutoDeskewTransform.java,144,fit(DataSet),fit,19
+jsat.datatransform,/datatransform/DataTransformProcess.java,127,learnApplyTransforms(DataSet),learnApplyTransforms,14
+jsat.datatransform.featureselection,/datatransform/featureselection/MutualInfoFS.java,129,fit(DataSet),fit,24
+jsat.datatransform.featureselection,/datatransform/featureselection/ReliefF.java,201,fit(DataSet, ExecutorService),fit,13
+jsat.datatransform.kernel,/datatransform/kernel/RFF_RBF.java,98,RFF_RBF(int, double, int, Random, boolean),RFF_RBF,10
+jsat.datatransform.kernel,/datatransform/kernel/Nystrom.java,254,sampleBasisVectors(KernelTrick, DataSet, List, SamplingMethod, int, boolean, Random),sampleBasisVectors,14
+jsat.datatransform.kernel,/datatransform/kernel/KernelPCA.java,137,fit(DataSet),fit,12
+jsat.parameters,/parameters/Parameter.java,214,getParamsFromMethods(Object, String),getParamsFromMethods,25
+jsat.parameters,/parameters/Parameter.java,334,getParam(Object, Class, Method, Method, String, String),getParam,15
+jsat.parameters,/parameters/GridSearch.java,138,autoAddParameters(DataSet, int),autoAddParameters,16
+jsat.parameters,/parameters/GridSearch.java,298,train(RegressionDataSet, boolean),train,12
+jsat.parameters,/parameters/GridSearch.java,441,train(ClassificationDataSet, boolean),train,12
+jsat.text.tokenizer,/text/tokenizer/NaiveTokenizer.java,104,tokenize(String, StringBuilder, List),tokenize,12
+jsat.text.stemming,/text/stemming/LovinsStemmer.java,231,removeEnding(String),removeEnding,86
+jsat.text.stemming,/text/stemming/PorterStemmer.java,79,stem(String),stem,41
+jsat.text.stemming,/text/stemming/PorterStemmer.java,208,measure(String, int, int),measure,10
+jsat.text.stemming,/text/stemming/PaiceHuskStemmer.java,60,apply(String),apply,15
+jsat.regression,/regression/RANSAC.java,113,call(),call,11
+jsat.regression,/regression/StochasticRidgeRegression.java,226,train(RegressionDataSet),train,19
+jsat.regression,/regression/KernelRLS.java,200,update(DataPoint, double, double),update,10
+jsat,/ColumnMajorStore.java,159,addDataPoint(DataPoint),addDataPoint,10
+jsat.classifiers.knn,/classifiers/knn/DANN.java,230,classify(DataPoint),classify,16
+jsat.classifiers.trees,/classifiers/trees/ImpurityScore.java,98,getScore(),getScore,11
+jsat.classifiers.trees,/classifiers/trees/ImpurityScore.java,213,gain(ImpurityScore, double, ImpurityScore...),gain,13
+jsat.classifiers.trees,/classifiers/trees/ID3.java,74,buildTree(List, Set, ExecutorService),buildTree,10
+jsat.classifiers.trees,/classifiers/trees/RandomForest.java,289,trainStep(DataSet, boolean),trainStep,20
+jsat.classifiers.trees,/classifiers/trees/RandomForest.java,445,call(),call,15
+jsat.classifiers.trees,/classifiers/trees/MDI.java,86,visit(TreeNodeVisitor, ImpurityScore, ClassificationDataSet, IntList, double, double, int),visit,10
+jsat.classifiers.trees,/classifiers/trees/ExtraTree.java,209,trainC(ImpurityScore, ClassificationDataSet, List, CategoricalData, Random),trainC,22
+jsat.classifiers.trees,/classifiers/trees/ExtraTree.java,370,train(OnLineStatistics, RegressionDataSet, List, CategoricalData, Random),train,23
+jsat.classifiers.trees,/classifiers/trees/DecisionStump.java,378,trainC(ClassificationDataSet, Set, boolean),trainC,13
+jsat.classifiers.trees,/classifiers/trees/DecisionStump.java,600,createNumericCSplit(ClassificationDataSet, int, int, List, ImpurityScore, double, ImpurityScore),createNumericCSplit,15
+jsat.classifiers.trees,/classifiers/trees/DecisionStump.java,766,trainR(RegressionDataSet, Set, boolean),trainR,10
+jsat.classifiers.trees,/classifiers/trees/MDA.java,51,getImportanceStats(TreeLearner, DataSet),getImportanceStats,11
+jsat.classifiers.trees,/classifiers/trees/DecisionTree.java,378,makeNodeC(ClassificationDataSet, Set, int, boolean, ModifiableCountDownLatch),makeNodeC,10
+jsat.classifiers.trees,/classifiers/trees/DecisionTree.java,429,makeNodeR(RegressionDataSet, Set, int, boolean, ModifiableCountDownLatch),makeNodeR,11
+jsat.classifiers.trees,/classifiers/trees/TreePruner.java,87,pruneReduceError(TreeNodeVisitor, int, TreeNodeVisitor, ClassificationDataSet),pruneReduceError,15
+jsat.classifiers.trees,/classifiers/trees/TreePruner.java,167,pruneErrorBased(TreeNodeVisitor, int, TreeNodeVisitor, ClassificationDataSet, double),pruneErrorBased,25
+jsat.classifiers,/classifiers/OneVSOne.java,111,train(ClassificationDataSet, boolean),train,10
+jsat.classifiers.calibration,/classifiers/calibration/PlattCalibration.java,62,calibrate(boolean, double, int),calibrate,17
+jsat.classifiers.linear,/classifiers/linear/StochasticSTLinearL1.java,350,wDot(Vec),wDot,15
+jsat.classifiers.linear,/classifiers/linear/LogisticRegressionDCD.java,204,train(ClassificationDataSet),train,18
+jsat.classifiers.linear.kernelized,/classifiers/linear/kernelized/Projectron.java,213,update(DataPoint, double, int),update,17
+jsat.classifiers.linear.kernelized,/classifiers/linear/kernelized/Forgetron.java,216,update(DataPoint, double, int),update,15
+jsat.classifiers.linear.kernelized,/classifiers/linear/kernelized/DUOL.java,204,update(DataPoint, double, int),update,14
+jsat.classifiers.linear.kernelized,/classifiers/linear/kernelized/BOGD.java,284,update(DataPoint, double, int),update,13
+jsat.classifiers.linear.kernelized,/classifiers/linear/kernelized/CSKLRBatch.java,242,train(ClassificationDataSet),train,13
+jsat.classifiers.linear,/classifiers/linear/SDCA.java,382,trainProxSDCA(DataSet, double, double),trainProxSDCA,24
+jsat.classifiers.linear,/classifiers/linear/SCW.java,325,update(DataPoint, double, int),update,16
+jsat.classifiers.linear,/classifiers/linear/NHERD.java,241,update(DataPoint, double, int),update,14
+jsat.classifiers.linear,/classifiers/linear/BBR.java,334,train(ClassificationDataSet),train,26
+jsat.classifiers.linear,/classifiers/linear/StochasticMultinomialLogisticRegression.java,553,train(ClassificationDataSet),train,32
+jsat.classifiers.linear,/classifiers/linear/LinearL1SCD.java,107,featureScaleCheck(Vec, int),featureScaleCheck,11
+jsat.classifiers.linear,/classifiers/linear/LinearL1SCD.java,217,train(Vec, double),train,12
+jsat.classifiers.linear,/classifiers/linear/LinearBatch.java,260,train(ClassificationDataSet, Classifier, boolean),train,13
+jsat.classifiers.linear,/classifiers/linear/SMIDAS.java,131,train(ClassificationDataSet),train,10
+jsat.classifiers.linear,/classifiers/linear/SMIDAS.java,285,setUpVecs(DataSet),setUpVecs,12
+jsat.classifiers.linear,/classifiers/linear/NewGLMNET.java,308,train(ClassificationDataSet, Vec, double, boolean),train,59
+jsat.classifiers.imbalance,/classifiers/imbalance/BorderlineSMOTE.java,184,train(ClassificationDataSet, boolean),train,16
+jsat.classifiers.neuralnetwork,/classifiers/neuralnetwork/SOM.java,338,trainSOM(DataSet, boolean),trainSOM,16
+jsat.classifiers.neuralnetwork,/classifiers/neuralnetwork/LVQ.java,462,train(ClassificationDataSet, boolean),train,28
+jsat.classifiers.neuralnetwork,/classifiers/neuralnetwork/BackPropagationNet.java,145,trainNN(DataSet),trainNN,13
+jsat.classifiers.neuralnetwork,/classifiers/neuralnetwork/SGDNetworkTrainer.java,151,SGDNetworkTrainer(SGDNetworkTrainer),SGDNetworkTrainer,12
+jsat.classifiers.neuralnetwork,/classifiers/neuralnetwork/SGDNetworkTrainer.java,490,updateMiniBatch(List, List, ExecutorService),updateMiniBatch,13
+jsat.classifiers.neuralnetwork,/classifiers/neuralnetwork/SGDNetworkTrainer.java,534,feedforward(Matrix, Matrix, Matrix, ExecutorService, Random),feedforward,11
+jsat.classifiers.svm,/classifiers/svm/SBP.java,180,train(ClassificationDataSet),train,12
+jsat.classifiers.svm,/classifiers/svm/SBP.java,283,sampleC(Random, int, double, double),sampleC,11
+jsat.classifiers.svm,/classifiers/svm/Pegasos.java,247,train(ClassificationDataSet),train,10
+jsat.classifiers.svm,/classifiers/svm/SupportVectorLearner.java,265,setCacheMode(CacheMode),setCacheMode,10
+jsat.classifiers.svm,/classifiers/svm/PlattSMO.java,198,trainC_warm_and_normal(ClassificationDataSet, Classifier),trainC_warm_and_normal,50
+jsat.classifiers.svm,/classifiers/svm/PlattSMO.java,478,takeStep(int, int),takeStep,23
+jsat.classifiers.svm,/classifiers/svm/PlattSMO.java,633,takeStepR(int, int),takeStepR,57
+jsat.classifiers.svm,/classifiers/svm/PlattSMO.java,822,updateThreshold(int),updateThreshold,11
+jsat.classifiers.svm,/classifiers/svm/PlattSMO.java,853,examineExample(int),examineExample,20
+jsat.classifiers.svm,/classifiers/svm/PlattSMO.java,919,examineExampleR(int),examineExampleR,30
+jsat.classifiers.svm,/classifiers/svm/PlattSMO.java,1242,train(RegressionDataSet, Regressor),train,31
+jsat.classifiers.svm,/classifiers/svm/DCDs.java,312,train(ClassificationDataSet, Classifier),train,28
+jsat.classifiers.svm,/classifiers/svm/DCDs.java,517,train(RegressionDataSet, Regressor),train,27
+jsat.classifiers.svm,/classifiers/svm/DCDs.java,678,eq24(double, double, double, double),eq24,11
+jsat.classifiers.svm.extended,/classifiers/svm/extended/OnlineAMM.java,278,update(DataPoint, int, int),update,33
+jsat.classifiers.svm.extended,/classifiers/svm/extended/AMM.java,119,train(ClassificationDataSet),train,10
+jsat.classifiers.svm.extended,/classifiers/svm/extended/CPM.java,319,ASSIGN(Vec, int, int, int, int, int),ASSIGN,20
+jsat.classifiers.svm.extended,/classifiers/svm/extended/CPM.java,413,sgdTrain(ClassificationDataSet, MatrixOfVecs, Vec, int, boolean),sgdTrain,10
+jsat.classifiers.svm,/classifiers/svm/DCD.java,383,train(RegressionDataSet),train,10
+jsat.classifiers.svm,/classifiers/svm/DCSVM.java,238,train(ClassificationDataSet, boolean),train,19
+jsat.classifiers.boosting,/classifiers/boosting/Stacking.java,237,train(ClassificationDataSet, boolean),train,11
+jsat.classifiers.boosting,/classifiers/boosting/AdaBoostM1.java,146,train(ClassificationDataSet, boolean),train,12
+jsat.classifiers.boosting,/classifiers/boosting/ModestAdaBoost.java,154,train(ClassificationDataSet, boolean),train,14
+jsat.classifiers.boosting,/classifiers/boosting/SAMME.java,83,train(ClassificationDataSet, boolean),train,10
+jsat.classifiers.bayesian,/classifiers/bayesian/NaiveBayesUpdateable.java,143,classify(DataPoint),classify,13
+jsat.classifiers.bayesian.graphicalmodel,/classifiers/bayesian/graphicalmodel/K2NetworkLearner.java,63,learnNetwork(ClassificationDataSet),learnNetwork,12
+jsat.classifiers.bayesian,/classifiers/bayesian/NaiveBayes.java,200,classify(DataPoint),classify,13
+jsat.classifiers.bayesian,/classifiers/bayesian/MultinomialNaiveBayes.java,257,classify(DataPoint),classify,12
+jsat.distributions.kernels,/distributions/kernels/KernelPoint.java,416,mutableAdd(double, Vec, List),mutableAdd,25
+jsat.distributions.kernels,/distributions/kernels/GeneralRBFKernel.java,122,guessSigma(DataSet, DistanceMetric),guessSigma,14
+jsat.distributions.kernels,/distributions/kernels/KernelPoints.java,355,mutableAdd(Vec, Vec, List),mutableAdd,39
+jsat.distributions.multivariate,/distributions/multivariate/ProductKDE.java,131,queryWork(Vec, Set, SparseVector),queryWork,11
+jsat.distributions.discrete,/distributions/discrete/DiscreteDistribution.java,87,invCdfRootFinding(double, double),invCdfRootFinding,10
+jsat.distributions.empirical,/distributions/empirical/KernelDensityEstimator.java,408,equals(Object),equals,14
+jsat.distributions,/distributions/DistributionSearch.java,76,getBestDistribution(Vec, double, ContinuousDistribution...),getBestDistribution,12
+jsat.outlier,/outlier/IsolationForest.java,131,build(int, int, DataSet, IntList, double, double),build,11
