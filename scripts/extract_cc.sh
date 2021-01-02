@@ -10,7 +10,7 @@ gawk -F, '/,"CyclomaticComplexity"/' ../results/csv/ultra-hard-02_01_2021.csv |
 gawk -F, '/("The method)|("The constructor)/' | \
 gawk 'BEGIN{FS="\",\"";OFS=","} \
     BEGIN{print "Package,File,Line,MethodSignature,MethodName,MethodCC"} \
-    {split($3,path,"JSAT/JSAT/src/jsat")} \
+    {split($3,path,"JSAT/JSAT")} \
     {match($6,/'\''(.*)'\'' has a cyclomatic complexity of ([0-9]+)./,cc)} \
     {match(cc[1], /(.*)\(/, name)} \
     {print $2,path[2],$5,cc[1],name[1],cc[2]}' \
@@ -20,7 +20,7 @@ gawk -F, '/,"CyclomaticComplexity"/' ../results/csv/ultra-hard-02_01_2021.csv |
 gawk -F, '/"The class/' | \
 gawk 'BEGIN{FS="\",\"";OFS=","} \
     BEGIN{print "Package,File,Line,ClassName,ClassCC,HighestCC"} \
-    {split($3,path,"JSAT/JSAT/src/jsat")} \
+    {split($3,path,"JSAT/JSAT")} \
     {match($6,/'\''(.*)'\'' has a total cyclomatic complexity of ([0-9]+) \(highest ([0-9]+)\)/,cc)} \
     {print $2,path[2],$5,cc[1],cc[2],cc[3]}' \
 > ../results/csv/02_01_2021/cc_class_02_01_2021.csv
